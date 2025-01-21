@@ -1,0 +1,39 @@
+[
+    {
+        "P": {
+            "S": ["baS", "bSb", "A"],
+            "A": ["a", "ba", "bb"]
+        },
+        "terminale": ["a", "b"],
+        "slowo": "bb",
+        "symbolStartowy": "S"
+    },
+    {
+        "P": {
+            "S": ["aSa", "bSb", "A"],
+            "A": ["a", "b"]
+        },
+        "terminale": ["a", "b"],
+        "slowo": "aaa",
+        "symbolStartowy": "S"
+    },
+    {
+        "P": {
+            "S": ["1", "A1"],
+            "A": ["1", "A0", "0A0", "1A1"]
+        },
+        "terminale": ["1", "0"],
+        "slowo": "110",
+        "symbolStartowy": "S"
+    },
+    {
+        "P": {
+            "E": ["T", "E+T"],
+            "T": ["P", "T*P"],
+            "P": ["a"]
+        },
+        "terminale": ["a", "+", "*"],
+        "slowo": "a+a*a",
+        "symbolStartowy": "E"
+    }
+]
